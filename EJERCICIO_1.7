@@ -1,0 +1,33 @@
+Algoritmo hombre_mujer
+	Definir  edad Como Entero; 
+	Definir sexo Como Caracter;
+	repetir
+		Imprimir "Introduce Tu edad:"
+		Leer edad;
+	Hasta que (edad >0)
+	Hacer
+		Imprimir "Introduce tu sexo (M/H):"
+		leer sexo
+	hasta que (sexo='H' o sexo = 'M')
+	
+	Si sexo= 'M' entonces
+		si edad > 18 entonces
+			Imprimir "Eres Mujer y puedes votar"
+			sino
+				Imprimir "Eres Mujer y no puedes votar"
+			FinSi
+		FinSi
+		
+	si sexo= 'H' entonces
+		si edad >18 entonces
+			Imprimir "Eres Hombre y puedes votar"
+		sino
+			Imprimir "Eres Hombre y no puedes votar"
+		FinSi
+	FinSi
+	
+
+
+	
+	
+FinAlgoritmo
